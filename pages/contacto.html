@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Main css -->
+    <link rel="stylesheet" type="text/css" href="../src/css/main.css"/>
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+
+    <!--Favicon -->
+    <link rel="stylesheet" href="src/imagens/iconMatosinhos.png">
+
+    <title>Exercicio 2 </title>
+  </head>
+  
+
+  <body>
+  <header>
+   
+    <nav class= "topnav">
+        <a href ="# "> Sobre nós</a>
+        <a href ="#" > Contactos<a>
+        <a href="../pages/quiz.html" > Quiz</a>  
+        <a href ="../index.html" > Inicio</a> 
+         
+    </nav>
+
+    <article class="myClass">
+      <i class="fas fa-school"></i> 
+      <h1>Escola Secundária Augusto Gomes</h1>
+       
+     
+    </article>
+  </header>  
+   
+ <main> <!-- Indica que é a parte principal do documento -->
+    
+        <article>
+
+            <form class= "myForm">
+                <fieldset>
+                    <legend>  Contacte-nos  </legend>
+
+                            <label class="required" for="fnome">Nome:</label> <br>
+                            <input  class= "largura60 novalina" type="text" id="nome" name="fnome" required><br>
+                            
+
+                            <label class="darespaco"  for = "dataNascimento" > DataNascimento </label><br>
+                            <input type="date"  id="dataNascimento" name="dataNascimento"> <br>
+
+                          
+
+                                  <input  type="radio" id ="feminino" name="genero" value ="m" required>
+                                  <label  for = "feminino"> Feminino </label>
+                                  <input type="radio" id="masculino" name="genero" value ="m">
+                                  <label   class= "required" for = "masculino"> Masculino </label><br>
+                             
+
+                             <input  class="darespaco "type="checkbox" id="comunica" name = "checkcomunica" value = "Sim">
+                            <label for="checkcomunica"> Quero receber emails de comunicações</label><br>                           
+                          
+                            
+                            <input  class= "darespaco" type="submit" value="Enviar">
+                </fieldset>
+
+               </fieldset>     
+
+
+          </form>
+        </article>
+
+
+    
+</main>
+    <footer class="rodape">
+      <p>Fernando Sousa nº 1</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+.opcao {
+  padding: 10px;
+}
+.opcao:hover {
+  background-color: lightblue;
+}
+.labelopcao {
+  padding: 5px;
+  font-size: 2.5rem;
+}
+.inputopcao {
+  transform: scale(1.5);
+  margin-right: 10px;
+  vertical-align: middle;
+  margin-top: -4px;
+}
+.h5 {
+  margin-left: 15px;
+  font-size: x-large;
+}
+.container {
+  /*position: relative;*/
+  top: 100px;
+  background-color: papayawhip;
+  width: 50%;
+  margin: auto;
+}
+
+.btnVerifica {
+
+    width: 100px; 
+    height: 40px; 
+    border-radius: 
+    3px;
+    background-color: lightblue; 
+    font-weight: 700;
+
+}
+
+
